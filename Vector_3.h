@@ -7,15 +7,17 @@
 
 class Vector_3 {
 public:
-    Vector_3():i(0), j(0), k(0)
-    {
-
-    }
+    Vector_3();  // parameterless constructor
+    void input(); // receive input from user
+    void output();
+    Vector_3 operator * (Vector_3 c);
+    float dot (Vector_3 c);
+    float magnitude();
+    float unit();
 private:
     float i;
     float j;
     float k;
-
 };
 
 
