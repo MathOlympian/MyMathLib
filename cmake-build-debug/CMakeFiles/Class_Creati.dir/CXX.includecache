@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/deggymudi/CLionProjects/Class_Creati/Complex.cpp
+Complex.h
+/Users/deggymudi/CLionProjects/Class_Creati/Complex.h
+iostream
+-
+
+/Users/deggymudi/CLionProjects/Class_Creati/Complex.h
+
+/Users/deggymudi/CLionProjects/Class_Creati/Vector_3.cpp
+Vector_3.h
+/Users/deggymudi/CLionProjects/Class_Creati/Vector_3.h
+string
+-
+iostream
+-
+cmath
+-
+
+/Users/deggymudi/CLionProjects/Class_Creati/Vector_3.h
+
+/Users/deggymudi/CLionProjects/Class_Creati/main.cpp
+iostream
+-
+string
+-
+cmath
+-
+Complex.h
+/Users/deggymudi/CLionProjects/Class_Creati/Complex.h
+Vector_3.h
+/Users/deggymudi/CLionProjects/Class_Creati/Vector_3.h
+

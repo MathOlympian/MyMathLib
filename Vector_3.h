@@ -10,10 +10,10 @@ public:
     Vector_3();  // parameterless constructor
     void input(); // receive input from user
     void output();
-    Vector_3 operator * (Vector_3 c);
+    Vector_3 operator * (Vector_3 vec);
     float dot (Vector_3 c);
     float magnitude();
-    float unit();
+    Vector_3 unit();
 private:
     float i;
     float j;
