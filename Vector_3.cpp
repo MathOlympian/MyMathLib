@@ -65,9 +65,9 @@ Vector_3 Vector_3::unit() {
     temp.j = j;
     temp.k = k;
 
-    temp.i = temp.i / temp.magnitude();
-    temp.j = temp.j / temp.magnitude();
-    temp.k = temp.k / temp.magnitude();
+    temp.i =/ temp.magnitude();
+    temp.j =/ temp.magnitude();
+    temp.k =/ temp.magnitude();
 
     return temp;
 }
