@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+
     /*
     std::cout << "Hello, World!" << std::endl;
     Complex result, c1, c2;
@@ -26,7 +27,7 @@ int main()
     cout << "Absolute = " << sqrtf(*result);
      */
 
-    /*
+    
     Vector_3 result, v1, v2;
 
     v1.input();
@@ -55,6 +56,6 @@ int main()
 
    Vector_3 nm;
    nm.input();
-	*/
+
     return 0;
 }
